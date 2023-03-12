@@ -3,7 +3,7 @@ import { subtract } from './subtract.js';
 import { multiply } from './multiply.js';
 import { divide } from './divide.js';
 
-export const math = {
+export default {
   add,
   subtract,
   multiply,
