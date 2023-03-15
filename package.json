@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/itsmehrd/learn-ES/issues"
   },
-  "homepage": "https://github.com/itsmehrd/learn-ES#readme"
+  "homepage": "https://github.com/itsmehrd/learn-ES#readme",
+  "devDependencies": {
+    "eslint": "^8.36.0"
+  }
 }
