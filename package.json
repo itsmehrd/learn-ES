@@ -1,0 +1,19 @@
+{
+  "name": "learn-es",
+  "version": "1.0.0",
+  "description": "Learn EcmaScript",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsmehrd/learn-ES.git"
+  },
+  "author": "Harish Reddy Dappili",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsmehrd/learn-ES/issues"
+  },
+  "homepage": "https://github.com/itsmehrd/learn-ES#readme"
+}
