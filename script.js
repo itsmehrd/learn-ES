@@ -1,9 +1,11 @@
-const fs = require('fs');
+const http = require('http');
 
-fs.writeFile('hw.txt', 'Hello world!', (err) =>
-  err ? console.log(err) : console.log('Succesfully created file')
-);
+const onServerCreate = (request, response) => {
+//   response.setHeader('Content-Type', 'text/plain');
+  response.setHeader('Content-Type', 'text/html');
+  response.write(`<h1></h1>Hello Harish!</h1>`);
+  response.end();
+};
 
-fs.readFile('harish.txt', (err, data) =>
-  err ? console.log(err) : console.log(data.toString())
-);
+const server = http.createServer(onServerCreate);
+server.listen('4200');
