@@ -1,0 +1,5 @@
+{
+    name: 'Harish Reddy',
+    age: '25',
+    company: 'Brillio'
+}
